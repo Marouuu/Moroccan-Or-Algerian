@@ -1,47 +1,44 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import Image from './components/Image';
+import ButtonGroup from './components/Buttons';
 
+const images = [
+  {
+    id: 1,
+    src: 'https://photos.tf1info.fr/images/700/700/hakim-ziyech-maroc-coupe-du-monde-b04c1c-0@1x.jpeg',
+    origin: 'Marocain',
+  },
+  {
+    id: 2,
+    src: 'https://dzballon.com/wp-content/uploads/2023/03/20230304_170351-1.jpg',
+    origin: 'Algérien',
+  },
+];
 
-function Game() {
-  const [score, setScore] = useState(0);
+const Game = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [images, setImages] = useState([
-    { src: '', isMoroccan: true },
-    { src: '', isMoroccan: false },
-    // ... Ajoutez plus d'images ici
-  ]);
+  const [score, setScore] = useState(0);
 
-  useEffect(() => {
-    // Chargez les images et les données de jeu à partir d'une API ou d'une source de données locale
-  }, []);
-
-  const handleDragEnd = (e) => {
-    const { clientX: startX } = e.targetTouches ? e.targetTouches[0] : e;
-    const endX = e.clientX;
-
-    if (endX < startX && images[currentImageIndex].isMoroccan) {
-      // Si l'utilisateur a glissé l'image vers la gauche et que c'est un Marocain
+  const handleButtonClick = (option) => {
+    if (option === images[currentImageIndex].origin) {
       setScore(score + 1);
-      setCurrentImageIndex(currentImageIndex + 1);
-    } else if (endX > startX && !images[currentImageIndex].isMoroccan) {
-      // Si l'utilisateur a glissé l'image vers la droite et que ce n'est pas un Marocain
-      setScore(score + 1);
-      setCurrentImageIndex(currentImageIndex + 1);
-    } else {
-      // Si l'utilisateur a deviné incorrectement ou n'a pas réussi à deviner avant la fin du temps imparti
-      setScore(0);
-      setCurrentImageIndex(0);
     }
-  };
+    setCurrentImageIndex(currentImageIndex + 1);
+  }
+
+  if (currentImageIndex >= images.length) {
+    return (
+      <div>
+        <p>Fin du jeu. Votre score est de {score} sur {images.length}.</p>
+      </div>
+    );
+  }
 
   return (
-    <div className="game-container">
-      <h1>Devinez si la personne est marocaine ou algérienne</h1>
-      <div className="image-container" onTouchEnd={handleDragEnd} onMouseUp={handleDragEnd}>
-        <img src={images[currentImageIndex].src} alt="personne à deviner" />
-      </div>
-      <div className="score-container">
-        <p>Votre score : {score}</p>
-      </div>
+    <div>
+      <Image src={images[currentImageIndex].src} />
+      <ButtonGroup handleClick={handleButtonClick} />
+      <p>Score : {score}</p>
     </div>
   );
 }
