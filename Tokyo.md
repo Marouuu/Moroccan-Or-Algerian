@@ -11,7 +11,9 @@ Point de chute : `Shinjuku Washington Hotel Annex` (à 5 min de Tochōmae Stat
 ---
 
 ## Jeudi 21 novembre – Arrivée & mise en jambe
-- **19 h00** : Atterrissage à Tokyo (supposé Haneda). Prenez le *Limousine Bus Haneda → Shinjuku Washington Hotel* (45 min, réserver à l’avance) ou monorail Haneda → Hamamatsuchō + JR Yamanote vers Shinjuku (30 min).
+- **19 h00** : Atterrissage à Tokyo Narita (T1/T2). Options rapides :
+  - *Narita Express (N’EX)* jusqu’à Shinjuku (1 h20, sièges réservés, dernier départ ≈21 h45). Depuis la gare, sortie South puis 10 min à pied vers l’hôtel.
+  - *Airport Limousine Bus Narita → Shinjuku Washington Hotel* (1 h40, dernière navette ≈21 h). Réservez à l’avance pour déposer les valises au pied de l’annexe.
 - **20 h30** : Check-in, rapide douche.
 - **21 h00** : Balade digestive. Itinéraire : hôtel → terrasse gratuite du *Tokyo Metropolitan Government Building North Tower* (5 min à pied, dernière montée 22 h). Vue romantique sur Shinjuku/Shibuya.
 - **22 h00** : Collation légère à `FamilyMart` au pied de l’hôtel ou ramen au `Fuunji` (JR Shinjuku South Exit, ouvert ~23 h).
@@ -72,9 +74,9 @@ Point de chute : `Shinjuku Washington Hotel Annex` (à 5 min de Tochōmae Stat
 - **10 h45–12 h00** : Shopping design `Omotesandō`/`Cat Street`. Arrêt `Blue Bottle Coffee` (Aoyama) pour latté.
 - **12 h15** : Déjeuner final à `Udon Shin` (Shinjuku). Attente courte si tôt.
 - **13 h30–15 h00** : Retour hôtel, récupérer bagages, **repos / sieste / bain** avant vol.
-- **15 h00** : Trajet aéroport (supposé Haneda; adaptez si Narita).
-  - Option sereine : *Airport Limousine Bus* direct depuis Shinjuku Washington (1 h10). Réservez la navette de 15 h10 pour arrivée 16 h20 > 2 h40 avant vol.
-  - Option rail : Tochōmae → Daimon (Toei Ōedo Line, 25 min) puis Tokyo Monorail jusqu’à Haneda T3 (18 min).
+- **15 h00** : Trajet aéroport (vol 19 h depuis Narita).
+  - Option sans stress : *Airport Limousine Bus* Shinjuku Washington → Narita T1/T2 (1 h40). Prenez la navette de 15 h10 pour arrivée 16 h50 > 2 h+ avant embarquement.
+  - Option rail rapide : JR Chūō Line Rapid Shinjuku → Tokyo (14 min) puis *Narita Express* (55 min, réservation obligatoire). Alternative Keisei Skyliner : Shinjuku → Nippori (Yamanote 25 min) puis Skyliner (40 min).
 - **19 h00** : Vol vers Séoul – bon voyage !
 
 ---
@@ -85,5 +87,13 @@ Point de chute : `Shinjuku Washington Hotel Annex` (à 5 min de Tochōmae Stat
 - `Sumida River Cruise` coucher de soleil, départ Asakusa → Hamarikyu.
 - `Kappabashi Street` pour acheter vaisselle japonaise artisanale.
 - `Cooking class wagashi` près de Shinjuku (`Bunka cooking studio`).
+
+## Activités amusantes à glisser selon l’humeur
+- `Joypolis Odaiba` : parc d’attractions indoor (VR coasters, jeux Sega) parfait avant/après la soirée Toyosu/Odaiba.
+- `Round1 Spo-Cha Shinjuku Kabukichō` : multi-activités 24/7 (patins, tir à l’arc, karaoké privé) pour un après-midi pluvieux.
+- `Karaoke Kan Shibuya` salle `Yoyogi` avec vue néons (15 min JR) – idéal après dîner.
+- `Street Kart Shibuya` (avec permis international) pour défiler déguisés dans les rues tôt le matin.
+- `TeamLab Borderless Azabudai Hills` (si billets disponibles) pour prolonger l’immersion après TeamLab Planets.
+- `Namja Town & Gyoza Stadium` à Ikebukuro (ligne Yamanote) pour goûter gyozas créatifs et mini-jeux rétro.
 
 Profitez de Tokyo en douceur, vous avez l’essentiel pour éviter la foule, garder des moments de repos, et parsemer le séjour de touches romantiques. Bon voyage !
